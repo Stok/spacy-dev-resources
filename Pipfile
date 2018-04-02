@@ -1,0 +1,35 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+cffi = "*"
+cryptography = "*"
+"enum34" = "*"
+Fabric = "*"
+fabtools = "*"
+gensim = "*"
+idna = "*"
+ipaddress = "*"
+paramiko = "*"
+pathlib = "*"
+plac = "*"
+preshed = "*"
+"pyasn1" = "*"
+pycparser = "*"
+six = "*"
+joblib = "*"
+spacy = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "2.7"

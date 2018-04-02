@@ -56,7 +56,7 @@ def build_wiki_vocab(language, env=None):
     local("mkdir -p {}".format(corpus_dir))
 
     out_file = "{}_wiki.xml.bz2".format(language)
-    wikipedia.download(corpus_dir, out_file, language)
+    #wikipedia.download(corpus_dir, out_file, language)
 
     dump_path = join(corpus_dir, out_file)
     corpus_files_root = join(corpus_dir, "wiki")
